@@ -76,7 +76,7 @@ function setup(){
 
 function draw(){
   //establece un color de fondo 
-  background("red");
+  background("lightblue");
   text ("score" + score ,500,50);
   console.log(estadodejuego);
   if(estadodejuego===PLAY){
