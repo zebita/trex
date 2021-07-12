@@ -14,8 +14,8 @@ var gameOverImg, restartImg, gameOver, restart;
 var sonidodead,sonidojump,sonidocheck;
 
 function preload(){
-trex_running=loadAnimation("trex1.png","trex3.png","trex4.png");
-  groundImage = loadImage("ground2.png") // precargar animaciones o imagenes
+  trex_running=loadAnimation("trex1.png","trex3.png","trex4.png");
+  groundImage = loadImage("ground2.png"); // precargar animaciones o imagenes
   nubesitas=loadImage("Cloud.png");
   obstaculoimg1=loadImage("Obstacle2-1.png");
   obstaculoimg2=loadImage("Obstacle2.png");
